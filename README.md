@@ -4,6 +4,8 @@
 
 Do you also have the obssessive need to secure your [BIP-0039](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) mnmemonic seed beyond all necessity? Then this program is for you.
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75669206/142242784-27b2ad75-1180-48af-9a63-3b4409263d7e.gif)
+
 ## Steps
 
 There are two steps in ensuring that your mnemonic seed is safe. All manuals will tell you to *never* store information about this seed on a computer, as you never know what kind of attacker might be watching. So how can a computer program ever be of assistance?
