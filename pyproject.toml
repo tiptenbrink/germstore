@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "germstore"
+version = "0.1.0"
+description = "Set of utilities for safely storing your BIP39 seed phrase"
+authors = ["Tip ten Brink <75669206+tiptenbrink@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pycryptodome = "3.11.0"
+numpy = "1.21.4"
+sancty = { path = "/home/erag/Files/gitprojects/sancty" }
+pyyaml = "6.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+germ-sancty = "germstore.sancty_cli:run"
+germ-derive = "germstore.key_derivation:run"
+germ-otp = "germstore.modulo:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
